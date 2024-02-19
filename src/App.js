@@ -1,10 +1,10 @@
-
 import './App.css';
+import Main from "./pages/main.jsx"
 
 function App() {
   return (
-    <div className="App">
-      App
+    <div className="">
+      <Main/>
     </div>
   );
 }
