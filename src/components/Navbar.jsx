@@ -1,6 +1,9 @@
 import React, { useState } from 'react'
-import { HiMiniBars2 } from "react-icons/hi2";
 
+
+// icons 
+import { HiMiniBars2 } from "react-icons/hi2";
+import { MdOutlineCancel } from "react-icons/md";
 
 const Navbar = () => {
 
@@ -11,7 +14,7 @@ const Navbar = () => {
             JamZayn.
         </div>
 
-            <ul className={`flex md:flex-row flex-col gap-6 text-[#6b7688] font-[600] uppercase md:bg-[transparent] md:w-auto md:static bg-[white]  w-[80%] ${toggle ? 'right-0' : 'right-[-100%]'} top-[80px] md:h-auto h-[100vh] absolute transition-[0.5s] md:p-0 p-10`}>
+            <ul className={`flex md:flex-row flex-col gap-6 text-[#6b7688] font-[600] uppercase md:bg-[transparent] md:w-auto md:static bg-[white]  w-[80%] ${toggle ? 'right-0' : 'right-[-100%]'} top-[80px] md:h-auto h-[100vh] absolute transition-[1s] md:p-0 p-10`}>
                 <li><a href="#" className='links'>Home</a></li>
                 <li><a href="#" className='links'>Skills</a></li>
                 <li><a href="#" className='links'>My Works</a></li>
@@ -25,7 +28,7 @@ const Navbar = () => {
 
         {/* bars  */}
         <div className='p-1 bg-[#313bac] text-[white] rounded-full text-[25px] md:hidden block' onClick={()=>setToggle(!toggle)}>
-            <HiMiniBars2 />
+            {toggle ? <MdOutlineCancel /> : <HiMiniBars2/>} 
         </div>
     </nav>
   )
