@@ -18,7 +18,7 @@ const Header = () => {
                 <p className='text-[35px] lg:text-[40px]'>👋</p>
                 <p className='flex flex-col'>
                     <span className='text-slate-400 text-[18px] lg:text-[20px]'>Hello, I am</span>
-                    <span className='font-bold text-[25px] lg:text-[30px]'>Nurbek</span>
+                    <span className='font-bold text-[25px] lg:text-[30px]'>Jamshid</span>
                 </p>
             </div>
             <div className='w-full bg-[white] max-w-[300px] p-3 text-slate-400 text-[14px] lg:text-[18px] text-center  rounded-[15px] shadow-lg'>FRONTEND/REACT DEVELOPER</div>
