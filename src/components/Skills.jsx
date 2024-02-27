@@ -10,11 +10,11 @@ const Skills = () => {
             <span>My</span>
             <span className='text-[#313bac]'>Skills</span>
         </div>
-        <div className='flex flex-wrap gap-10  py-10 justify-center items-center w-[70%] m-auto'>
+        <div className='flex flex-wrap gap-5 md:gap-10  py-10 justify-center items-center w-[90%] md:w-[70%] m-auto'>
             {SkillsData.map((item)=>(
         <div key={item.id}>
-            <div className='w-[100px] h-[100px] rounded-full bg-[#fef4f5] flex justify-center items-center hover:shadow-lg'>
-                <img src={item.img} alt="reactIcon" className='w-[50px] h-[50px]' />
+            <div className='w-[70px] h-[70px]  md:w-[100px] md:h-[100px] rounded-full bg-[#fef4f5] flex justify-center items-center hover:shadow-lg'>
+                <img src={item.img} alt="reactIcon" className='w-[50px] h-[50px] p-1' />
             </div>
             <div className='text-center mt-2 text-[14px]'>{item.title}</div>
         </div>

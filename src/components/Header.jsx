@@ -14,7 +14,7 @@ const Header = () => {
         {/* Download CV  */}
         <Flip right>
         <div className='flex flex-col gap-6 md:gap-10 items-center md:items-end w-full max-w-[400px]'>
-            <div className='flex justify-center items-center bg-[white] gap-10 w-full max-w-[350px] p-1 lg:p-3  rounded-[15px] shadow-lg'>
+            <div className='flex justify-center items-center bg-[white] gap-3 md:gap-10 w-full max-w-[350px] p-1 lg:p-3  rounded-[15px] shadow-lg'>
                 <p className='text-[35px] lg:text-[40px]'>👋</p>
                 <p className='flex flex-col'>
                     <span className='text-slate-400 text-[18px] lg:text-[20px]'>Hello, I am</span>
