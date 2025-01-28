@@ -1,3 +1,5 @@
+
+
 export const SkillsData = [
     {
         id:1,
@@ -32,7 +34,7 @@ export const SkillsData = [
     {
         id:7,
         title:"TypeScript",
-        img:"https://w7.pngwing.com/pngs/915/519/png-transparent-typescript-hd-logo-thumbnail.png"
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7dkmpJZtL2xj51nTueG8UbOj40zbqJPXFTA&s"
     },
     {
         id:8,

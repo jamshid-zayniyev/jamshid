@@ -4,6 +4,12 @@ import { Fade } from 'react-reveal'
 
 const Skills = () => {
 
+    const getDate = () =>{
+        const date = new Date()
+
+        return date.getFullYear()
+    }
+
   return (
     <div className='h-auto md:h-[100vh] relative' id='skills'>
         <div className='font-bold flex gap-2 text-[35px] md:text-[50px] my-10 md:my-16 justify-center'>
@@ -22,7 +28,7 @@ const Skills = () => {
         </Fade>
             ))}
         </div>
-        <div className='text-[14px] py-5 text-right w-[90%] md:absolute bottom-[20px] right-[40px]'>@2024 JAMSHID ZAYNIYEV</div>
+        <div className='text-[14px] py-5 text-right w-[90%] md:absolute bottom-[20px] right-[40px]'>@{getDate()} JAMSHID ZAYNIYEV</div>
     </div>
   )
 }
