@@ -3,6 +3,7 @@ import Gif from "../assets/dev1.gif"
 import ReactImg from "../assets/react.png"
 import ReduxImg from "../assets/redux.png"
 import Sass from "../assets/sass.png"
+import Foundation from "../assets/foundation.jpg"
 import Social from './Social'
 
 //animation
@@ -41,7 +42,7 @@ const Header = () => {
 
             </div>
             <div className='w-[50px] h-[50px] lg:w-[100px] lg:h-[100px] rounded-full bg-[white] shadow-2xl flex justify-center items-center'>
-            <img src={Sass} className='w-[80%]' alt="img" />
+            <img src={Foundation} className='w-[80%] rounded-full' alt="img" />
             </div>
         </div>
         </Fade>
